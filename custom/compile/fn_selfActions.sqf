@@ -24,7 +24,7 @@ if ("ItemBloodbag" in _mags) then {
 } else { hasBagItem = false;};
 if((speed player <= 1) && hasBagItem && _canDo) then {
     if (s_player_selfBloodbag < 0) then {
-        s_player_selfBloodbag = player addaction[("<t color=""#c70000"">" + ("Self Bloodbag") +"</t>"),"custom\scripts\player_selfbloodbag.sqf","",5,false,true,"", ""];
+        s_player_selfBloodbag = player addaction[("<t color=""#c70000"">" + ("Self Bloodbag") +"</t>"),"zupa\advancedTrading\player_selfbloodbag.sqf","",5,false,true,"", ""];
     };
 } else {
     player removeAction s_player_selfBloodbag;

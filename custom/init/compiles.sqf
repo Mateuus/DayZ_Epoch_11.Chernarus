@@ -24,6 +24,4 @@ player_build =	compile preprocessFileLineNumbers "custom\actions\player_build.sq
 //GUI MENU
 dayz_spaceInterrupt = compile preprocessFileLineNumbers "custom\actions\dayz_spaceInterrupt.sqf";
 
-//Scripts
-fnc_usec_selfActions = compile preprocessFileLineNumbers "custom\scripts\player_selfbloodbag.sqf";   
 };
