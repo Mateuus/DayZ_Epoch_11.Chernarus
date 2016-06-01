@@ -172,5 +172,12 @@ class RscTitles
 //Snap Building Pro
 #include "custom\snap_pro\snappoints.hpp"
 
+//PlotManagement
 #include "plotManagement\defines.hpp"
 #include "plotManagement\plotManagement.hpp"
+
+//GUI MENU
+#include	"custom\menu\defines.hpp"
+#include	"custom\menu\menu.hpp"
+#include	"custom\menu\rules.hpp"
+#include	"custom\menu\rules2.hpp"
