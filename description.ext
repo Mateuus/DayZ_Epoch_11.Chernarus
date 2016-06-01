@@ -27,6 +27,39 @@ aiKills = 1;
 diagRadio = 1;
 diagHit = 1;
 
+class RscPictureGUI
+{
+	access = 0;
+	type = 0;
+	idc = -1;
+	colorBackground[] = {0,0,0,0};
+	colorText[] = {0.38,0.63,0.26,0.75};
+	font = "Bitstream";
+	sizeEx = 0;
+	lineSpacing = 0;
+	text = "";
+	style = "0x30 + 0x100";
+	x = 0;
+	y = 0;
+	w = 0.2;
+	h = 0.15;
+};
+
+class RscTextGUIK {
+	type = 0;
+	idc = -1;
+	style = 0x02;
+	colorBackground[] = {0,0,0,0};
+	colorText[] = {1,1,1,0.5};
+	font = "Bitstream";
+	size = 0.03;
+	sizeEx = 0.03;
+	x = 0;
+	y = 0;
+	w = 0.1;
+	h = 0.2;
+};
+
 class RscText
 {
 	type = 0;
@@ -154,8 +187,11 @@ class DayZ_loadingScreen
 //Banco
 class RscTitles
 {
+	//RSCTITLES GUI
+	#include "configs\rcstitles.hpp"
     #include "ZSC\config\ZSChud.hpp"
 	#include "RC\desc_inc.h" //Group
+	
 };
 
 //Banco
@@ -182,3 +218,7 @@ class RscTitles
 #include	"custom\menu\menu.hpp"
 #include	"custom\menu\rules.hpp"
 #include	"custom\menu\rules2.hpp"
+
+
+
+

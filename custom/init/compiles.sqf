@@ -23,4 +23,7 @@ player_build =	compile preprocessFileLineNumbers "custom\actions\player_build.sq
 
 //GUI MENU
 dayz_spaceInterrupt = compile preprocessFileLineNumbers "custom\actions\dayz_spaceInterrupt.sqf";
+
+//GUI HUD
+player_updateGui =				compile preprocessFileLineNumbers "custom\compile\player_updateGui.sqf";
 };
