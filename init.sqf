@@ -100,6 +100,8 @@ if (!isDedicated) then {
 	execVM "ZSC\compiles\playerHud.sqf"; 
 	//Grupo
 	execVM "RC\init.sqf";
+	//SafeZone
+	execVM "custom\safezone\safezone.sqf";
 };
 
 #include "\z\addons\dayz_code\system\REsec.sqf"
