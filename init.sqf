@@ -98,6 +98,8 @@ if (!isDedicated) then {
 	//[false,12] execVM "\z\addons\dayz_code\compile\local_lights_init.sqf";
     //Banco
 	execVM "ZSC\compiles\playerHud.sqf"; 
+	//Grupo
+	execVM "RC\init.sqf";
 };
 
 #include "\z\addons\dayz_code\system\REsec.sqf"

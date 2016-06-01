@@ -155,6 +155,7 @@ class DayZ_loadingScreen
 class RscTitles
 {
     #include "ZSC\config\ZSChud.hpp"
+	#include "RC\desc_inc.h" //Group
 };
 
 //Banco
